@@ -155,7 +155,7 @@ struct AsymmetricRectangleView: View {
                 Rectangle()
                     .fill(Color.red)
                     .frame(width: 100, height: 100)
-                    .transition(.asymmetric(insertion: .scale, removal: .opacity))
+                    .transition(.asymmetric(insertion: .pivot, removal: .opacity))
             }
         }
     }
